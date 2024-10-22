@@ -33,7 +33,7 @@ def main():
         print(labels_and_reasons)
         print()
         full_reasoning_labels.append(labels_and_reasons)
-    with open("data_folder/output/gpt-4-labels-reasoning-compare.json", 'w') as f:
+    with open("data_folder/output/gpt_4_output.json", 'w') as f:
         json.dump(full_reasoning_labels, f, indent=4)
 
 
